@@ -16,14 +16,18 @@
     .header {
             padding-left: 24px;
             padding-right: 24px;
-    }
-    
+    }   
+}
+
+@media screen and (max-width: 390px) {
+    .header {
+            padding: 16px 16px 48px 16px;
+            max-width: 358px;
+    }   
 }
 
 @media screen and (max-width: 320px) {
     .header {
-            padding: 16px 16px 44px 16px;
             max-width: 288px;
-    }
-    
+    } 
 }

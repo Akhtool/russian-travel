@@ -1,4 +1,11 @@
 .header__logo-link {
     max-width: 176px;
-    max-width: 52px;
+    max-height: 52px;
+}
+
+@media screen and (max-width: 390px) {
+    .header__logo-link {
+        max-width: 142px;
+        max-height: 42px;
+    }
 }

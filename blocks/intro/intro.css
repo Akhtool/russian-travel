@@ -21,11 +21,18 @@
     
 }
 
+@media screen and (max-width: 390px) {
+    .intro {
+        max-width: 350px;
+        padding-left: 16px;
+        padding-bottom: 64px;
+    }
+    
+}
+
 @media screen and (max-width: 320px) {
     .intro {
         max-width: 285px;
-        padding-left: 16px;
-        padding-bottom: 64px;
     }
     
 }

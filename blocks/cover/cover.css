@@ -20,10 +20,17 @@
     }
 }
 
+@media screen and (max-width: 390px) {
+    .cover {
+        width: 390px;
+        min-height: 244px;
+        padding-bottom: 64px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover {
         width: 320px;
         min-height: 200px;
-        padding-bottom: 64px;
     }
 }

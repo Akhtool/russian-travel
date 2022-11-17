@@ -8,9 +8,15 @@
     }
 }
 
+@media screen and (max-width: 390px) {
+    .place__text {
+        max-width: 350px;
+        padding-left: 16px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__text {
         max-width: 288px;
-        padding-left: 16px;
     }
 }
