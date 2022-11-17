@@ -1,0 +1,16 @@
+.place__text {
+    max-width: 484px;
+}
+
+@media screen and (max-width: 768px) {
+    .place__text {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__text {
+        max-width: 288px;
+        padding-left: 16px;
+    }
+}
