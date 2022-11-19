@@ -8,14 +8,28 @@
     margin: 0 auto; 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .lead {
+      max-width: 928px;
+  
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .lead {
+        max-width: 768px;
         padding-bottom: 88px;
     }
-}
+  }
 
-@media screen and (max-width: 390px) {
+  @media screen and (max-width: 390px) {
     .lead {
         padding-bottom: 64px;
     }
 }
+  
+  @media screen and (max-width: 320px) {
+    .lead {
+      max-width: 320px;
+    }
+  }
