@@ -2,6 +2,13 @@
     align-self: flex-end;
 }
 
+@media screen and (max-width: 695px) {
+    .place__website {
+        align-self: flex-start;
+        padding-left: 24px;
+    }
+}
+
 @media screen and (max-width: 390px) {
     .place__website {
         align-self: flex-start;

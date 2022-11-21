@@ -26,16 +26,7 @@
 	}
 }
 
-@media screen and (max-width: 390px) {
-	.place {
-		display: flex;
-		flex-direction: column;
-		gap: 32px;
-		padding-top: 50px;
-	}
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 695px) {
 	.place {
 		display: flex;
 		flex-direction: column;
