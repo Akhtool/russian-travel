@@ -8,8 +8,9 @@
     margin: 0;
     padding: 0;
 }
-.place__paragraph:nth-child(1) {
-    margin: 0 0 26px 0;
+
+.place__paragraph:not(:last-child) {
+    margin-bottom: 26px;
 }
 
 @media screen and (max-width: 768px) {
@@ -18,7 +19,8 @@
         line-height: 163%;
         max-width: 352px;
     }
-    .place__paragraph:nth-child(1) {
+
+    .place__paragraph:not(:last-child) {
         margin-bottom: 25px;
     }
 }
